@@ -67,6 +67,14 @@ will create a new ``my_project_name/`` directory, download some dependencies
 into it and even generate the basic directories and files you'll need to get
 started. In other words, your new application is ready!
 
+In order to install an older version of Symfony, find the version tag you require
+at the `skeleton repository`_ or the `website_skeleton respository`_.Put the 
+version tag at the end of the following Composer command:
+
+.. code-block:: terminal
+    
+    $ composer create-project symfony/skeleton my_project_name v4.4.99
+
 .. note::
 
     The project's cache and logs directory (by default, ``<project>/var/cache/``
@@ -307,3 +315,5 @@ Learn More
 .. _`Tokenizer`: https://php.net/book.tokenizer
 .. _`SimpleXML`: https://php.net/book.simplexml
 .. _`PCRE`: https://php.net/book.pcre
+.. _`skeleton repository`: https://github.com/symfony/skeleton
+.. _`website_skeleton repository`: https://github.com/symfony/website-skeleton
